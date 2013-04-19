@@ -7,7 +7,7 @@ app.configure(function(){
 });
 
 app.get('/', function(req,res){
-  console.log(req);
+  console.log("GET");
   res.send("Hello World");
 });
 
