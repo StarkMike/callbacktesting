@@ -6,7 +6,6 @@ html
     script
       var socket = io.connect()
       socket.on('message', function(msg){
-        console.log(msg);
         $("#messages").append("<li>"+msg+"</li>");
       })
   body
